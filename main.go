@@ -5,6 +5,7 @@ import (
 )
 
 func print(a ...any) {
+	fmt.Print("fuga")
 	fmt.Print(a...)
 }
 
